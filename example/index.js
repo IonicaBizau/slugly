@@ -1,19 +1,19 @@
 "use strict";
 
-const slugIt = require("../lib");
+const slugly = require("../lib");
 
 // Simple usage
-console.log(slugIt("Hello World"));
+console.log(slugly("Hello World"));
 
 // Using Romanian diacritics
-console.log(slugIt("Salutări din București!"));
+console.log(slugly("Salutări din București!"));
 
 // Using special characters
-console.log(slugIt("I ♥ You!"));
+console.log(slugly("I ♥ You!"));
 
 // Long dashes
-console.log(slugIt("2016 — What a year!"));
+console.log(slugly("2016 — What a year!"));
 
 // Add a new character to the charmap
-slugIt.charmap["😂"] = "joy"
-console.log(slugIt("I am full of 😂"));
+slugly.charmap["😂"] = "joy"
+console.log(slugly("I am full of 😂"));

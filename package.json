@@ -1,6 +1,6 @@
 {
-  "name": "slug-it",
-  "description": "A minimal yet powerful slug library.",
+  "name": "slugly",
+  "description": "A minimal and yet powerful slug library.",
   "keywords": [
     "slug",
     "it",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
-  "homepage": "https://github.com/IonicaBizau/slug-it#readme",
+  "homepage": "https://github.com/IonicaBizau/slugly#readme",
   "files": [
     "bin/",
     "app/",
@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/slug-it.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/slugly.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/slug-it/issues"
+    "url": "https://github.com/IonicaBizau/slugly/issues"
   },
   "dependencies": {
     "regex-escape": "^3.4.8"
