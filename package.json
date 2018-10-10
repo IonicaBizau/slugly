@@ -38,5 +38,8 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/slug-it/issues"
+  },
+  "dependencies": {
+    "regex-escape": "^3.4.8"
   }
 }
