@@ -5,7 +5,7 @@
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/slugly.svg)](https://www.npmjs.com/package/slugly) [![Downloads](https://img.shields.io/npm/dt/slugly.svg)](https://www.npmjs.com/package/slugly)
 
-> A minimal and yet powerful slug library.
+> A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug) - human-readable URL parts.
 
 ## :cloud: Installation
 
@@ -26,20 +26,20 @@ yarn add slugly
 const slugly = require("slugly");
 
 // Simple usage
-console.log(slugly("Hello World"));
+console.log(slugly("Hello World"));  // hello-world
 
 // Using Romanian diacritics
-console.log(slugly("Salutări din București!"));
+console.log(slugly("Salutări din București!"));  // salutari-din-bucuresti
 
 // Using special characters
-console.log(slugly("I ♥ You!"));
+console.log(slugly("I ♥ You!"));  // i-love-you
 
 // Long dashes
-console.log(slugly("2016 — What a year!"));
+console.log(slugly("2016 — What a year!"));  // 2016-what-a-year
 
 // Add a new character to the charmap
 slugly.charmap["😂"] = "joy"
-console.log(slugly("I am full of 😂"));
+console.log(slugly("I am full of 😂"));  // i-am-full-of-joy
 ```
 
 
@@ -76,7 +76,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :sparkling_heart: Support my projects
 
-I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously,
+I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
 this takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
