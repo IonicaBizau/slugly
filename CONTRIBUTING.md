@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/slug-it/issues
+[1]: https://github.com/IonicaBizau/slugly/issues
 
 [2]: https://github.com/IonicaBizau/code-style

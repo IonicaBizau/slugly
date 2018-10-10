@@ -2,7 +2,7 @@
 
 You can see below the API reference of this module.
 
-### `slugIt(input)`
+### `slugly(input)`
 Accepts a string as input, and returns its slug.
 
 #### Params
