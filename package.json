@@ -41,5 +41,9 @@
   },
   "dependencies": {
     "regex-escape": "^3.4.8"
+  },
+  "blah": {
+    "show_description": false,
+    "description": "A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)—human-readable URL parts."
   }
 }
