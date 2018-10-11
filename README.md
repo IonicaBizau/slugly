@@ -5,7 +5,7 @@
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/slugly.svg)](https://www.npmjs.com/package/slugly) [![Downloads](https://img.shields.io/npm/dt/slugly.svg)](https://www.npmjs.com/package/slugly)
 
-> A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug) - human-readable URL parts.
+> A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)—human-readable URL parts.
 
 ## :cloud: Installation
 
@@ -26,20 +26,25 @@ yarn add slugly
 const slugly = require("slugly");
 
 // Simple usage
-console.log(slugly("Hello World"));  // hello-world
+console.log(slugly("Hello World"));
+// => hello-world
 
 // Using Romanian diacritics
-console.log(slugly("Salutări din București!"));  // salutari-din-bucuresti
+console.log(slugly("Salutări din București!"));
+// => salutari-din-bucuresti
 
 // Using special characters
-console.log(slugly("I ♥ You!"));  // i-love-you
+console.log(slugly("I ♥ You!"));
+// => i-love-you
 
 // Long dashes
-console.log(slugly("2016 — What a year!"));  // 2016-what-a-year
+console.log(slugly("2016 — What a year!"));
+// => 2016-what-a-year
 
 // Add a new character to the charmap
 slugly.charmap["😂"] = "joy"
-console.log(slugly("I am full of 😂"));  // i-am-full-of-joy
+console.log(slugly("I am full of 😂"));
+// => i-am-full-of-joy
 ```
 
 
@@ -92,6 +97,12 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`bloggify-markdown-adapter`](https://github.com/Bloggify/markdown-adapter#readme) (by Bloggify)—Markdown adapter for Bloggify.
+ - [`bloggify-page`](https://github.com/Bloggify/bloggify-page#readme) (by Bloggify)—The Bloggify page class.
 
 ## :scroll: License
 

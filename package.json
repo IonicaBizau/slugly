@@ -44,6 +44,6 @@
   },
   "blah": {
     "show_description": false,
-    "description": "A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)—human-readable URL parts."
+    "description": "> A minimal and yet powerful library to generate [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)—human-readable URL parts."
   }
 }
