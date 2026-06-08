@@ -74,7 +74,8 @@ yarn add slugly
 
 
 ```js
-const slugly = require("slugly");
+import slugly from "slugly";
+import { CHARMAP } from "../lib/index.js";
 
 // Simple usage
 console.log(slugly("Hello World"));
@@ -93,7 +94,7 @@ console.log(slugly("2016 — What a year!"));
 // => 2016-what-a-year
 
 // Add a new character to the charmap
-slugly.charmap["😂"] = "joy"
+CHARMAP["😂"] = "joy"
 console.log(slugly("I am full of 😂"));
 // => i-am-full-of-joy
 ```
@@ -101,23 +102,6 @@ console.log(slugly("I am full of 😂"));
 
 
 
-
-
-
-
-
-
-
-
-## :question: Get Help
-
-There are few ways to get help:
-
-
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
 
 
 
@@ -137,6 +121,24 @@ Accepts a string as input, and returns its slug.
 
 #### Return
 - **String** The slug.
+
+
+
+
+
+
+
+
+
+## :question: Get Help
+
+There are few ways to get help:
+
+
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
 
 
 
