@@ -1,6 +1,7 @@
 "use strict";
 
-const slugly = require("../lib");
+import slugly from "../lib/index.js";
+import { CHARMAP } from "../lib/index.js";
 
 // Simple usage
 console.log(slugly("Hello World"));
@@ -19,6 +20,6 @@ console.log(slugly("2016 — What a year!"));
 // => 2016-what-a-year
 
 // Add a new character to the charmap
-slugly.charmap["😂"] = "joy"
+CHARMAP["😂"] = "joy"
 console.log(slugly("I am full of 😂"));
 // => i-am-full-of-joy

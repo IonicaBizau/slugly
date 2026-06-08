@@ -4,12 +4,12 @@
   "keywords": [
     "slug",
     "it",
-    "a",
     "minimal",
     "yet",
     "powerful",
     "library"
   ],
+  "type": "module",
   "license": "MIT",
   "version": "1.0.5",
   "main": "lib/index.js",
